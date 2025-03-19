@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peran Teknologi dalam Kehidupan Modern</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+            display: block;
+            text-align: center;
+            margin: 20px auto;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Peran Teknologi dalam Kehidupan Modern</h1>
+        <p>Teknologi telah menjadi bagian tak terpisahkan dari kehidupan manusia. Dari komunikasi, kesehatan, hingga industri, inovasi teknologi telah mengubah cara kita berinteraksi dan bekerja.</p>
+        
+        <p id="more" style="display: none;">
+            <strong>1. Teknologi dalam Komunikasi</strong><br>
+            Teknologi telah membawa perubahan besar dalam cara kita berkomunikasi. Internet dan perangkat mobile memungkinkan kita terhubung dengan siapa saja di dunia dalam hitungan detik. Media sosial, email, dan aplikasi perpesanan telah menghilangkan batasan geografis dalam komunikasi.
+            
+            <br><br>
+            <strong>2. Teknologi dalam Pendidikan</strong><br>
+            Sistem pembelajaran telah berubah dengan hadirnya platform e-learning. Kini, siapa saja dapat belajar dari mana saja melalui kursus online, video tutorial, dan konferensi virtual. Teknologi telah meningkatkan aksesibilitas pendidikan bagi banyak orang.
+            
+            <br><br>
+            <strong>3. Teknologi dalam Kesehatan</strong><br>
+            Dalam bidang kesehatan, teknologi telah membantu dalam diagnosis dan perawatan pasien. Alat medis canggih, aplikasi kesehatan, dan telemedicine memungkinkan pasien mendapatkan layanan medis dengan lebih mudah dan cepat.
+            
+            <br><br>
+            <strong>4. Teknologi dalam Bisnis</strong><br>
+            Dunia bisnis telah berkembang pesat dengan adanya e-commerce, digital marketing, dan sistem pembayaran online. Bisnis dapat menjangkau pelanggan secara global dan meningkatkan efisiensi operasional mereka dengan bantuan teknologi.
+            
+            <br><br>
+            <strong>5. Tantangan dan Masa Depan Teknologi</strong><br>
+            Meskipun memberikan banyak manfaat, perkembangan teknologi juga membawa tantangan, seperti keamanan data dan dampak sosial. Oleh karena itu, penting untuk memanfaatkan teknologi secara bijak dan terus beradaptasi dengan perubahan yang terjadi.
+        </p>
+        
+        <button class="btn" onclick="toggleText()">Baca Selengkapnya</button>
+    </div>
+    
+    <script>
+        function toggleText() {
+            var moreText = document.getElementById("more");
+            var btnText = document.querySelector(".btn");
+            
+            if (moreText.style.display === "none") {
+                moreText.style.display = "block";
+                btnText.innerHTML = "Tutup";
+            } else {
+                moreText.style.display = "none";
+                btnText.innerHTML = "Baca Selengkapnya";
+            }
+        }
+    </script>
+</body>
+</html>
